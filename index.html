@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Bootstrap Isotope</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+
+  <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+  <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+  <link href="css/theme.css" rel="stylesheet">
+  <link href="css/theme-responsive.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div id="page" class="container">
+
+  <header class="page-header">
+    <h1>Bootstrap + Isotope <small>sprinkled with some reddit sauce</small></h1>
+
+    <div class="description">
+      <p class="lead">
+        <span>Combines the epic powers of </span>
+        <span>Twitter Bootstrap and jQuery Isotope</span>
+      </p>
+    </div>
+
+    <div class="actions">
+      <div class="btn-toolbar">
+
+        <div class="btn-group">
+          <a id="subreddit" class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+            <span class="subreddit"></span>
+            <span class="caret"></span>
+          </a>
+          <ul id="subreddits" class="dropdown-menu">
+            <li><a href="#/">/</a></li>
+            <li><a href="#r/pics">r/pics</a></li>
+            <li><a href="#r/funny">r/funny</a></li>
+            <li><a href="#r/politics">r/politics</a></li>
+            <li><a href="#r/gaming">r/gaming</a></li>
+            <li><a href="#r/askreddit">r/askreddit</a></li>
+            <li><a href="#r/worldnews">r/worldnews</a></li>
+            <li><a href="#r/iama">r/iama</a></li>
+            <li><a href="#r/todayilearned">r/todayilearned</a></li>
+            <li><a href="#r/wtf">r/wtf</a></li>
+            <li><a href="#r/aww">r/aww</a></li>
+          </ul>
+        </div>
+
+        <div class="btn-group">
+          <a class="btn" href="http://github.com/mpezzi/bootstrap_isotope">
+            Learn more
+          </a>
+        </div>
+
+        <div class="btn-group">
+          <a class="btn btn-inverse" href="https://github.com/mpezzi/bootstrap_isotope/zipball/master">
+            Download
+          </a>
+        </div>
+
+      </div>
+    </div>
+
+  </header>
+
+  <div id="posts" class="isotope row">
+  
+    <div id="001" class="post item span4">
+    <div class="well">
+      <h4>
+        <a href="${permalink_absolute}" target="_blank">${title}</a>
+      </h4>
+      <div class="info">
+        <span class="badge">${score}</span>
+        <span class="badge">r/${subreddit}</span>
+      </div>
+    </div>
+  </div>
+  
+  
+  </div>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="http://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="js/jquery.ba-hashchange.min.js"></script>
+<script src="js/jquery.isotope.min.js"></script>
+
+
+
+</body>
+</html>
