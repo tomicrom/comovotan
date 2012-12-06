@@ -1,9 +1,9 @@
 <!doctype html>
 <html lang="en">
 <head>
-  
+ 
   <meta charset="utf-8" />
-  <title>&iquest;C&oacute;mo votaron los Diputados?</title>
+  <title>&iquest;C&oacute;mo votan los Diputados?</title>
   
   <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
   
@@ -16,7 +16,8 @@
     <link rel="stylesheet" href="css/colores.css" />
 
 
-  <!-- scripts at bottom of page -->
+</head>
+
 <body>
 <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
@@ -32,12 +33,12 @@
                 <a href="./index.html">Acerca</a>
               </li>
               <li class="">
-                <a href="./getting-started.html">Cómo se lee</a>
+                <a href="comoselee.html">¿Cómo se lee?</a>
               </li>
               <li class="">
-                <a href="./scaffolding.html">Directorio Legislativo</a>
+                <a href="http://www.directoriolegislativo.org/" target="_blank">Fundación Directorio Legislativo</a>
               </li>
-              <li class="active">
+              <li class="">
                 <a href="./base-css.html">Contacto</a>
               </li>
             </ul>
@@ -472,18 +473,80 @@
   </div>
 </div>
    <!-- cierra isotope -->   
-<div class="container">
 
-<footer class="footer">
+    <style type="text/css">
+
+      /* Sticky footer styles
+      -------------------------------------------------- */
+
+      html,
+      body {
+        height: 100%;
+        /* The html and body elements cannot have any padding or margin. */
+      }
+
+      /* Wrapper for page content to push down footer */
+      #wrap {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        /* Negative indent footer by it's height */
+        margin: 0 auto -60px;
+      }
+
+      /* Set the fixed height of the footer here */
+      #push,
+      #footer {
+        height: 60px;
+      }
+      #footer {
+        background-color: #f5f5f5;
+      }
+
+      /* Lastly, apply responsive CSS fixes as necessary */
+      
+        #footer {
+          margin-left: -20px;
+          margin-right: -20px;
+          padding-left: 20px;
+          padding-right: 20px;
+          text-align: center;
+        }
+      }
+
+
+
+      /* Custom page CSS
+      -------------------------------------------------- */
+      /* Not required for template or sticky footer method. */
+
+      .container {
+        width: auto;
+        max-width: 680px;
+      }
+      .container .credit {
+        margin: 20px 0;
+      }
+
+    </style>
+    <link href="..css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+  <!-- scripts at bottom of page -->
+
+
+  <div id="footer">
       <div class="container">
-        <p class="pull-right"><a href="#">Volver arriba</a></p>
-        <p>Creado por <a href="http://twitter.com/tomicrom" target="_blank">@tomicrom</a> y <a href="http://http://www.directoriolegislativo.org/" target="_blank">Directorio Legislativo</a>.</p>
-        <p>Desarrollado con<a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a> e <a href="http://isotope.metafizzy.co/">Isotope</a>.</p>
-
+                <p class="muted credit">Creado por <a href="http://twitter.com/tomicrom" target="_blank">@tomicrom</a> y <a href="http://http://www.directoriolegislativo.org/" target="_blank">Directorio Legislativo</a> | <a href="https://github.com/tomicrom/comovotan" target="_blank">GitHub</a> | Desarrollado con <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a> e <a href="http://isotope.metafizzy.co/">Isotope</a>.</p>
       </div>
-    </footer>
+    </div>
 
-</div>
+
+
 
   <!-- cierra footer-->  
  <!-- #container -->
