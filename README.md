@@ -6,7 +6,7 @@ Por ahora es un prototipo, falta mucho trabajo. No soy programador, por lo que e
 
 ##¿Cómo hago para verlo?
 
-Bajate todo y ejecutá index.html . Nada más.
+Todavía no está online. Quizás antes del fin del mundo lo esté. Mientras tanto, bajate todo y ejecutá index.html . Nada más.
 
 ##Desarrollado con:
 
